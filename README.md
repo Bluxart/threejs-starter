@@ -3,6 +3,7 @@
 Basic starter template for ThreeJS application.
 
 ## Installation
+Download [Node.js](https://nodejs.org/en/download/).
 
 Install dependencies:
 
