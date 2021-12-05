@@ -1,0 +1,21 @@
+{
+  "name": "threejs-starter",
+  "version": "1.0.0",
+  "description": "Basic starter template for ThreeJS application.",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "author": "Alessio Atzeni <info@alessioatzeni.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.0.1",
+    "@parcel/transformer-sass": "^2.0.1",
+    "dat.gui": "^0.7.7",
+    "parcel": "^2.0.1",
+    "three": "^0.135.0"
+  }
+}
